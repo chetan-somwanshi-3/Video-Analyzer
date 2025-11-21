@@ -1,12 +1,25 @@
-ipython
-jupyterlab
-matplotlib
-mkdocs
-notebook
-numpy
-pandas
-pip
-python-dotenv
-ruff
-scikit-learn
--e .
+# Core video and ML processing
+mediapipe==0.10.14
+opencv-python-headless==4.12.0.88
+opencv-contrib-python==4.12.0.88
+numpy==2.2.6
+pandas==2.3.3
+scipy==1.16.2
+scikit-learn==1.7.2
+
+# Backend API
+fastapi==0.121.0
+uvicorn==0.38.0
+python-multipart==0.0.20
+python-dotenv==1.2.1
+starlette==0.49.3
+
+# Utilities
+requests==2.32.5
+pillow==12.0.0
+loguru==0.7.3
+rich==14.2.0
+
+# Testing
+pytest==8.4.2
+
